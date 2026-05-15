@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Select-Object Name)",
+      "PowerShell(Get-ChildItem \"D:\\\\uigen\\\\uigen\" -Force | ForEach-Object { $_.Name })",
+      "Bash(npm audit *)"
+    ]
+  }
+}
